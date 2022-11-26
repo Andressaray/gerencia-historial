@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": ".",
+    "allowJs": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@base/*": ["./*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
